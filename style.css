@@ -1,0 +1,536 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway+Dots|Share|Comfortaa|Gruppo|Coda);
+
+
+
+body{
+  background: #9ac0ff;
+}
+
+#iphone{
+  width: 340px;
+  height: 580px;
+  background: white;
+  border-radius: 50px;
+  border-width:4px;
+  border-color:black;
+  border-style: double;
+  postion: absolute;
+  margin:0px 200px;
+  z-index: 0;
+}
+
+
+
+#screen{
+  width: 320px;
+  height: 480px; 
+  background: #222529; 
+  border-width:2px; 
+  border-color:black;
+  border-style: solid;
+  border-radius: 5px;
+  postion: absolute;
+  margin:-530px 212px;
+  z-index:0;
+}
+#inputField{
+  display: none;
+}
+#textBox{
+  position: absolute;
+  top: 555px;
+  left: 231px;
+  width:245px;
+  height:30px;
+  border-radius:30px;
+   border: 1px solid black;
+}
+#messageMonitor{
+  position: absolute;
+  top: 119px;
+  left: 222px;
+  width:320px;
+  height:427px;
+}
+.receivedMessage{
+  margin-left: 10px;
+  margin-top: 20px;
+ background-color: #E5E5EA ;
+ width:150px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-radius: 20px;
+
+}
+.receivedMessage span{
+  color: black;
+  padding-left:20px;
+}
+.sendedMessage{
+  margin-left: 154px;
+  margin-top: 20px;
+ background-color: #00E34D ;
+ max-width:150px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-radius: 20px;
+}
+.sendedMessage span{
+  color: white;
+  padding-left:20px;
+}
+#sendButton{
+  position: absolute;
+  top: 551px;
+  left: 486px;
+  width:51px;
+  height:44px;
+  border-radius:60px;
+  background-color: lightgreen;
+  color: white;
+  border: 1px solid lightgreen;
+}
+#button{
+  width: 28px;
+  height: 28px;
+  background: white;
+  border-radius: 15px;
+  border-width:5px;
+  border-color:#333333;
+  border-style: double;
+  postion: absolute;
+  margin:532px 360px;
+  z-index: 0;
+  
+}
+
+#time{
+  width:350px;
+  height:60px;
+  background: null;
+  font-family: 'Gruppo', cursive;
+  font-size: 60px;
+  color: white;
+  margin:-1000px 270px;
+  position: absolute;
+  z-index: 1;
+  
+  
+}
+
+#slide_on{
+  width: 60px;
+  height: 44px;
+  background: ;
+  font-family: 'Gruppo', cursive; 
+  box-shadow: 0px 0px 25px #85adff; 
+  font-size: 22px;
+  line-height:40px;
+  color: white;
+  margin:-660px 250px;
+  border-width:5px;
+  border-color:white;
+  border-style: solid double;
+  position: absolute;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+
+#speaker{
+  width: 70px;
+  height: 4px;
+  background: black;
+  border-radius: 0px;
+  border-width:1px;
+  border-color: white;
+  border-style: dotted solid;
+  postion: absolute;
+  margin:-1075px 335px;
+  z-index: -1;
+  
+}
+
+#camera{
+  width: 5px;
+  height: 5px;
+  background: #2c2e53;
+  border-radius: 8px;
+  border-width:4px;
+  border-color: #7290ba;
+  border-style: double;
+  postion: absolute;
+  margin: 1048px 365px;
+  z-index: -1;
+  
+}
+
+#app1{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -850px 230px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff; 
+  z-index:2;
+}
+
+#app2{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -850px 310px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app3{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -850px 390px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app4{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -850px 470px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app5{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -775px 230px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app6{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -775px 310px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app7{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -775px 390px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app8{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -775px 470px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app9{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -700px 230px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app10{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -700px 310px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app11{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -700px 390px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app12{
+  width: 44px;
+  height: 44px;
+  background:white;
+  font-size:30px;
+  margin: -700px 470px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app13{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -625px 230px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+#app14{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -625px 310px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+   
+#app15{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -625px 390px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+ 
+#app16{
+  width: 44px;
+  height: 44px;
+  background:white;
+  margin: -625px 470px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 15px #85adff;
+  z-index:2;
+}
+
+.iconName{
+  width: 70px;
+  background:null;
+  color:white;
+  font-family: 'Share', cursive;
+  font-size: 12px;
+  text-align: center;
+  margin: 44px -30%;
+}
+
+#newsBar{
+  width:310px;
+  height:120px;
+  background: #7792ad;
+  border-radius: 10px;
+  opacity:0.4;
+  position:absolute;
+  font-family: 'Gruppo', cursive;
+  font-size: 60px;
+  color: white;
+  margin: -850px 219px;
+  z-index:2;
+}
+
+#newsOnBar{
+  width:310px;
+  height:50px;
+  background:null;
+  border-radius: 10px;
+ 
+  position:absolute;
+  font-family: 'Gruppo', cursive;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  
+  margin: -820px 219px;
+  z-index:3;
+}
+
+#slideOnTrack{
+  width: 230px;
+  height: 44px;
+  background: #7792ad;
+  border-radius: 30px;
+  opacity:0.6;
+  position: absolute;
+  border-width:5px;
+  border-color:white;
+  border-style: double;
+  margin: -625px 250px;
+  z-index;0;
+}
+
+#newsBarLine1{
+  height:50px;
+  border-left: 1px solid #7792ad;
+  position: absolute;
+  margin: -930px 322px;
+  z-index:5;
+}
+
+#newsBarLine2{
+  height:50px;
+  border-left: 1px solid #7792ad;
+  position: absolute;
+  margin: -930px 426px;
+  z-index:5;
+}
+
+#phoneSign{
+  width: 44px;
+  height: 44px;
+  background: null;
+  color:white;
+  font-size:30px;
+  text-align: center;
+  text-shadow: 0px 0px 15px #85adff;
+  position: absolute;
+  margin: -930px 256px;
+  z-index:8;
+}
+
+#mailSign{
+  width: 44px;
+  height: 44px;
+  background: null;
+  color:white;
+  font-size:40px;
+  text-align: center;
+  text-shadow: 0px 0px 15px #85adff;
+  position: absolute;
+  margin: -930px 350px;
+  z-index:8;
+}
+
+#more{
+  width: 44px;
+  height: 44px;
+  background: null;
+  color:white;
+  font-size:40px;
+  text-align: center;
+  text-shadow: 0px 0px 15px #85adff;
+  position: absolute;
+  margin: -945px 450px;
+  z-index:8;
+}
+
+#newsOnBar:hover{
+  text-shadow: 0px 0px 10px white;
+}
+
+#slide_on:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app1:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app2:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app3:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app4:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app5:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app6:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app7:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app8:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app9:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app10:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app11:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app12:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app13:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app14:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app15:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#app16:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#phoneSign:hover{
+  text-shadow: 0px 0px 10px white;
+}
+
+#mailSign:hover{
+  text-shadow: 0px 0px 10px white;
+}
+
+#more:hover{
+  text-shadow: 0px 0px 10px white;
+}
